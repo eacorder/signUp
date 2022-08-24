@@ -5,7 +5,7 @@ body, html {
 
 :root {
     background-color: black;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -54,10 +54,10 @@ body {
 }
 
 .description {
-    margin: 3vh;
+    margin: 4vh;
     color: white;
-    font-size: 18px;
-    -webkit-text-stroke: 0.2px black; 
+    font-size: 18px; 
+    text-align: justify;
 }
 
 .formContainer {
@@ -81,8 +81,7 @@ body {
 }
 
 label {
-    font-size: 12px;
-    color: #878787;
+    font-size: 12px; 
 }
 
 .formDiv div {
@@ -106,22 +105,28 @@ input {
 .lastSection button {
     width: 40%;
     height: 4vh;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: black;
     background-color: #fddb4a;
     border-radius: 5px;
-    box-shadow:  2px 3px 2px 0px black;;
+    box-shadow:  2px 3px 2px 0px black;
+    font-weight: bold;
 }
 
 .lastSection span{
     color: white;
-    font-size: 15px;
-    -webkit-text-stroke: 0.2px black; 
+    font-size: 15px; 
 }
 
 .lastSection a{
     color: #fddb4a;
-    font-size: 15px;
-    -webkit-text-stroke: 0.2px black; 
+    font-size: 15px; 
     text-decoration: none;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid  rgb(14 118 108);
+    box-shadow: 0 0 3px  rgb(14 118 108);
 }
